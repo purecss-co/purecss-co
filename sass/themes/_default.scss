@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  font-family: $work-sans-font;
+}
+
+body {
+  background: $bg-color;
+  overflow-y: scroll;
+}

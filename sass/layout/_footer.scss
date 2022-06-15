@@ -1,0 +1,57 @@
+.footer {
+  background: $navbar-color;
+  border-top: 1px solid $border-color;
+  padding: 15px 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+
+  @include breakpoint(mobile) {
+    font-size: 12px;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    &-title {
+      font-size: 14px;
+
+      @include breakpoint(mobile) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  a {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpoint(mobile) {
+      width: 16px;
+      height: 16px;
+
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+
+  &-facebook {
+    background: $facebook-color;
+  }
+
+  &-twitter {
+    background: $twitter-color;
+  }
+}

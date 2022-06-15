@@ -1,0 +1,116 @@
+.navbar {
+  background: $navbar-color;
+  border-bottom: 1px solid $border-color;
+  padding: 15px 24px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-title {
+    .text {
+      &-title {
+        color: $logo-color;
+        font-weight: 700;
+        font-size: 24px;
+
+        @include breakpoint(mobile) {
+          font-size: 16px;
+        }
+      }
+
+      &-subtitle {
+        font-weight: 400;
+        color: $logo-color;
+
+        @include breakpoint(mobile) {
+          font-size: 14px;
+        }
+      }
+
+      &-by {
+        font-weight: 300;
+        font-size: 14px;
+        padding: 8px;
+        color: $logo-color;
+
+        @include breakpoint(mobile) {
+          font-size: 12px;
+          padding: 6px;
+        }
+      }
+    }
+
+    &-username {
+      color: #fff;
+      background: $twitter-color;
+      font-weight: 600;
+      font-size: 12px;
+      border-radius: 2px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      padding: 4px 6px;
+
+      .icon-twitter {
+        fill: #fff;
+      }
+
+      @include breakpoint(mobile) {
+        font-size: 10px;
+        padding: 2px 4px;
+
+        svg {
+          width: 12px;
+          height: 12px;
+        }
+      }
+    }
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    &-title {
+      font-size: 14px;
+
+      @include breakpoint(mobile) {
+        font-size: 12px;
+      }
+    }
+
+    a {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include breakpoint(mobile) {
+        width: 16px;
+        height: 16px;
+
+        svg {
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+  }
+
+  &-github {
+    background: #000;
+  }
+
+  &-youtube {
+    background: red;
+  }
+}

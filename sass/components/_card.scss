@@ -1,0 +1,53 @@
+.card {
+  overflow: hidden;
+  border-radius: 4px;
+  padding: 0;
+  width: 360px;
+
+  @include breakpoint(mobile) {
+    width: 100%;
+  }
+
+  &-title {
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-link {
+      display: flex;
+      gap: 6px;
+
+      a {
+        width: 18px;
+        height: 18px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &-youtube {
+        background: red;
+      }
+
+      &-codepen {
+        background: #000;
+      }
+
+      &-website {
+        background: green;
+      }
+
+      &-design {
+        background: $main-color;
+      }
+    }
+  }
+}
