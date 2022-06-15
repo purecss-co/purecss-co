@@ -63,6 +63,7 @@
 
       @include breakpoint(mobile) {
         font-size: 10px;
+        gap: 2px;
         padding: 2px 4px;
 
         svg {
