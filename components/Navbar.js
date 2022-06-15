@@ -59,7 +59,7 @@ export default function Navbar() {
         </a>
         <a
           className="navbar-youtube"
-          href="https://twitter.com/share?url=https://purecss.co&text=Collection%20of%20PureCSS%20images%20by%20@asyrafhussin4"
+          href="https://www.youtube.com/c/AsyrafHussin"
           target="_blank"
           rel="noreferrer"
         >
@@ -82,7 +82,7 @@ export default function Navbar() {
         </a>
         <a
           className="navbar-github"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://purecss.co"
+          href="https://github.com/purecss-co/purecss-co"
           target="_blank"
           rel="noreferrer"
         >
