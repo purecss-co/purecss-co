@@ -82,7 +82,7 @@ export default function Navbar() {
         </a>
         <a
           className="navbar-github"
-          href="https://github.com/purecss-co/purecss-co"
+          href="https://github.com/purecss-co"
           target="_blank"
           rel="noreferrer"
         >
