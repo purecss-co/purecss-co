@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { useQuery } from "react-query";
+import useSWR from "swr";
+
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export default function Card() {
-  const { isLoading, error, data } = useQuery("purecssData", () =>
-    fetch("/api").then((res) => res.json())
-  );
+  const { data, error } = useSWR("/api", fetcher);
 
-  if (isLoading) return "Loading...";
+  if (!data) return "Loading...";
 
   if (error) return "An error has occurred: " + error.message;
 
