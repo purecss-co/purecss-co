@@ -2,6 +2,14 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "The Lips",
+        image: "the-lips_bz1PQ3v0O.png",
+        codepen: "https://codepen.io/AsyrafHussin/pen/JjpVMWB",
+        github: "https://github.com/purecss-co/the-lips",
+        website: "",
+        design: "https://www.malikafavre.com/nyt",
+      },
+      {
         title: "The Professor",
         image: "professor_B0BxnuDm7.png",
         youtube: "https://youtu.be/ww1h0EMv-U0",
