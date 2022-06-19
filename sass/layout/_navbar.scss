@@ -77,7 +77,11 @@
   &-link {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 15px;
+
+    @include breakpoint(mobile) {
+      gap: 9px;
+    }
 
     &-title {
       font-size: 14px;
@@ -105,13 +109,5 @@
         }
       }
     }
-  }
-
-  &-github {
-    background: #000;
-  }
-
-  &-youtube {
-    background: red;
   }
 }

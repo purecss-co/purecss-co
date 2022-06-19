@@ -17,7 +17,11 @@
   &-link {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 15px;
+
+    @include breakpoint(mobile) {
+      gap: 9px;
+    }
 
     &-title {
       font-size: 14px;
@@ -45,13 +49,5 @@
         height: 14px;
       }
     }
-  }
-
-  &-facebook {
-    background: $facebook-color;
-  }
-
-  &-twitter {
-    background: $twitter-color;
   }
 }

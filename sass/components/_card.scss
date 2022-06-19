@@ -22,7 +22,7 @@
 
     &-link {
       display: flex;
-      gap: 6px;
+      gap: 9px;
 
       a {
         width: 18px;
@@ -31,22 +31,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-
-      &-youtube {
-        background: red;
-      }
-
-      &-codepen {
-        background: #000;
-      }
-
-      &-website {
-        background: green;
-      }
-
-      &-design {
-        background: $main-color;
       }
     }
   }
