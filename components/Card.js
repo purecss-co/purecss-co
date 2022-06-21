@@ -1,5 +1,6 @@
 import BrowserIcon from "./icons/BrowserIcon";
 import CodePenIcon from "./icons/CodePenIcon";
+import GitHubIcon from "./icons/GitHubIcon";
 import Image from "next/image";
 import PhotoIcon from "./icons/PhotoIcon";
 import YoutubeIcon from "./icons/YoutubeIcon";
@@ -65,6 +66,17 @@ export default function Card() {
                   rel="noreferrer"
                 >
                   <CodePenIcon />
+                </a>
+              )}
+
+              {item.github && (
+                <a
+                  className="card-footer-link-codepen"
+                  href={item.github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GitHubIcon />
                 </a>
               )}
 
