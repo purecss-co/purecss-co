@@ -4,6 +4,7 @@ export default function handler(req, res) {
       {
         title: "The Lips",
         image: "the-lips_bz1PQ3v0O.png",
+        youtube: "https://youtu.be/EblG8uz08qs",
         codepen: "https://codepen.io/AsyrafHussin/pen/JjpVMWB",
         github: "https://github.com/purecss-co/the-lips",
         website: "",
