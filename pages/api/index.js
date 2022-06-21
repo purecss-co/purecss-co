@@ -645,7 +645,7 @@ export default function handler(req, res) {
         design: "",
       },
       {
-        title: "iPhone 8 White Edition and Wireless Charging",
+        title: "iPhone 8 White Edition",
         image: "iphone8_03gP6s2BF.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/BwgBLe",
         github: "https://github.com/purecss-co/purecss-iphone-8",
