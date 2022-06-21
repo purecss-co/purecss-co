@@ -4,7 +4,7 @@ export default function PhotoIcon() {
       xmlns="http://www.w3.org/2000/svg"
       className="ionicon"
       viewBox="0 0 512 512"
-      fill="#672f9a"
+      fill="#1e3a8a"
     >
       <path
         d="M416 64H96a64.07 64.07 0 00-64 64v256a64.07 64.07 0 0064 

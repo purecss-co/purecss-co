@@ -4,7 +4,7 @@ export default function BrowserIcon() {
       xmlns="http://www.w3.org/2000/svg"
       className="ionicon"
       viewBox="0 0 512 512"
-      fill="#228c22"
+      fill="#9f1239"
       width="22"
       height="22"
     >
