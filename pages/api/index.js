@@ -2,6 +2,16 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "Woman Wearing Face Mask",
+        image: "woman-face-mask_tjxnLZMhL.png",
+        youtube: "https://youtu.be/Mbu2kkVTw8o",
+        codepen: "https://codepen.io/AsyrafHussin/pen/LYdPOoG",
+        github: "https://github.com/purecss-co/woman-face-mask",
+        website: "",
+        design:
+          "https://www.vecteezy.com/vector-art/938443-woman-wearing-disposable-medical-face-mask",
+      },
+      {
         title: "The Lips",
         image: "the-lips_bz1PQ3v0O.png",
         youtube: "https://youtu.be/EblG8uz08qs",
