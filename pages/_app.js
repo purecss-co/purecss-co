@@ -2,6 +2,7 @@ import "../sass/app.scss";
 
 import * as gtag from "../lib/gtag";
 
+import Meta from "../components/Meta";
 import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
@@ -22,6 +23,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Meta />
+
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
