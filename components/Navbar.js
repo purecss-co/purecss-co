@@ -1,6 +1,5 @@
 import FacebookIcon from "./icons/FacebookIcon";
 import GitHubIcon from "./icons/GitHubIcon";
-import Image from "next/image";
 import TwitterIcon from "./icons/TwitterIcon";
 import YoutubeIcon from "./icons/YoutubeIcon";
 
