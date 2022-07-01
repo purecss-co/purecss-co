@@ -3,7 +3,7 @@ import Head from "next/head";
 const defaults = {
   title: `PureCSS by Asyraf Hussin`,
   description: `Collection of PureCSS images by Asyraf Hussin`,
-  image: `https://ik.imagekit.io/asyrafhussin/purecss/banner_4tgZv1Ryx.png`,
+  image: `web_banner.png`,
   url: `https://www.purecss.co`,
 };
 
