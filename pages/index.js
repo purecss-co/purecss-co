@@ -13,10 +13,6 @@ export default function Home() {
           name="description"
           content="Collection of PureCSS images by Asyraf Hussin"
         />
-        <meta
-          name="keywords"
-          content="PureCSS.co,purecss.co,purecss,pure css,pure css images,Asyraf Hussin,scss"
-        />
         <meta name="author" content="Asyraf Hussin" />
 
         <meta itemProp="name" content="PureCSS by Asyraf Hussin" />
@@ -24,24 +20,33 @@ export default function Home() {
           itemProp="description"
           content="Collection of PureCSS images by Asyraf Hussin"
         />
-        <meta itemProp="image" content="/banner.png" />
+        <meta
+          itemProp="image"
+          content="https://ik.imagekit.io/asyrafhussin/purecss/banner_4tgZv1Ryx.png"
+        />
 
-        <meta property="og:url" content="https://purecss.co" />
-        <meta property="og:type" content="website" />
         <meta property="og:title" content="PureCSS by Asyraf Hussin" />
         <meta
           property="og:description"
           content="Collection of PureCSS images by Asyraf Hussin"
         />
-        <meta property="og:image" content="/banner.png" />
+        <meta
+          property="og:image"
+          content="https://ik.imagekit.io/asyrafhussin/purecss/banner_4tgZv1Ryx.png"
+        />
+        <meta property="og:url" content="https://purecss.co" />
+        <meta property="og:type" content="website" />
 
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="PureCSS by Asyraf Hussin" />
         <meta
           name="twitter:description"
           content="Collection of PureCSS images by Asyraf Hussin"
         />
-        <meta name="twitter:image" content="/banner.png" />
+        <meta
+          name="twitter:image"
+          content="https://ik.imagekit.io/asyrafhussin/purecss/banner_4tgZv1Ryx.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
 
         <link
           rel="icon"
