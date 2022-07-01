@@ -1,3 +1,5 @@
+import * as gtag from "../lib/gtag";
+
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Meta from "../components/Meta";
