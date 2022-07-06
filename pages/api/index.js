@@ -2,6 +2,16 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "Girl With Sunglasses",
+        image: "girl-sunglasses_IwhLdZR1j.png",
+        youtube: "https://youtu.be/onkqGNOrmQw",
+        codepen: "https://codepen.io/AsyrafHussin/pen/OJvMRvN",
+        github: "https://github.com/purecss-co/girl-sunglasses",
+        website: "",
+        design:
+          "https://www.vectorstock.com/royalty-free-vector/fashion-portrait-of-a-model-girl-with-sunglasses-vector-22319637",
+      },
+      {
         title: "Woman Wearing Face Mask",
         image: "woman-face-mask_tjxnLZMhL.png",
         youtube: "https://youtu.be/Mbu2kkVTw8o",
