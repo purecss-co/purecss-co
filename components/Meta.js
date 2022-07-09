@@ -26,8 +26,8 @@ export default function Meta() {
       <meta property="og:type" content="website" />
 
       {/*<!-- Twitter Meta Tags -->*/}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@asyrafhussin4" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@asyrafhussin4" />
       <meta name="twitter:title" content={defaults.title} />
       <meta name="twitter:description" content={defaults.description} />
       <meta name="twitter:image" content={defaults.image} />
