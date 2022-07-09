@@ -3,7 +3,7 @@ import Head from "next/head";
 const defaults = {
   title: `PureCSS by Asyraf Hussin`,
   description: `Collection of PureCSS images by Asyraf Hussin`,
-  image: `https://purecss.co/web_banner.png`,
+  image: `https://purecss.co/banner.png`,
   url: `https://purecss.co`,
 };
 
@@ -26,7 +26,7 @@ export default function Meta() {
       <meta property="og:type" content="website" />
 
       {/*<!-- Twitter Meta Tags -->*/}
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@asyrafhussin4" />
       <meta name="twitter:title" content={defaults.title} />
       <meta name="twitter:description" content={defaults.description} />
