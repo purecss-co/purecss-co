@@ -2,6 +2,16 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "Captain Jack Sparrow",
+        image: "jack-sparrow_cREUbgQ6M.png",
+        youtube: "https://youtu.be/xq0J3e7wCi8",
+        codepen: "https://codepen.io/AsyrafHussin/pen/abYmoMM",
+        github: "https://github.com/purecss-co/jack-sparrow",
+        website: "",
+        design:
+          "https://www.etsy.com/listing/1221585863/johnny-depp-svg-captain-pirate-svg",
+      },
+      {
         title: "Girl With Sunglasses",
         image: "girl-sunglasses_IwhLdZR1j.png",
         youtube: "https://youtu.be/onkqGNOrmQw",
