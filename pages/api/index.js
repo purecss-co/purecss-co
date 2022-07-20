@@ -2,6 +2,15 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "Summer Girl",
+        image: "summer-girl_DHnQLa-Fm.png",
+        youtube: "https://youtu.be/1ojBO-FNYuI",
+        codepen: "https://codepen.io/AsyrafHussin/pen/dymWPWo",
+        github: "https://github.com/purecss-co/summer-girl",
+        website: "",
+        design: "https://dribbble.com/shots/6750609-Summer-Chic",
+      },
+      {
         title: "Captain Jack Sparrow",
         image: "jack-sparrow_cREUbgQ6M.png",
         youtube: "https://youtu.be/xq0J3e7wCi8",
