@@ -2,6 +2,16 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "Woman With Long Earrings",
+        image: "woman-long-earrings_5KvFjmdQ3.png",
+        youtube: "https://youtu.be/G73kBWe5UPQ",
+        codepen: "https://codepen.io/AsyrafHussin/pen/wvmeGJj",
+        github: "https://github.com/purecss-co/woman-long-earrings",
+        website: "",
+        design:
+          "https://www.vecteezy.com/vector-art/3597508-portrait-of-a-woman-with-long-earrings",
+      },
+      {
         title: "Summer Girl",
         image: "summer-girl_DHnQLa-Fm.png",
         youtube: "https://youtu.be/1ojBO-FNYuI",
