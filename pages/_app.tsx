@@ -8,6 +8,7 @@ import { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
+  const router2 = useRouter();
 
   useEffect(() => {
     const handleRouteChange = (url: URL) => {
