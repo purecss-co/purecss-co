@@ -9,7 +9,7 @@ const defaults = {
 
 export default function Meta() {
   return (
-    <Head>
+    <>
       <title>{defaults.title}</title>
       <meta name="description" content={defaults.description} />
 
@@ -32,6 +32,6 @@ export default function Meta() {
       <meta name="twitter:description" content={defaults.description} />
       <meta name="twitter:image" content={defaults.image} />
       <meta name="twitter:image:alt" content="PureCSS Banner" />
-    </Head>
+    </>
   );
 }
