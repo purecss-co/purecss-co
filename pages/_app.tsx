@@ -2,14 +2,13 @@ import "../sass/app.scss";
 
 import * as gtag from "../lib/gtag";
 
-import Meta from "../components/Meta";
-import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
+
   useEffect(() => {
     const handleRouteChange = (url: URL) => {
       gtag.pageview(url);
