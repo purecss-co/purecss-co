@@ -7,6 +7,7 @@ import YoutubeIcon from "./icons/YoutubeIcon";
 import useSWR from "swr";
 import fetcher from "../lib/fetcher";
 import React from "react";
+import { PureCSSData } from "../pages/api";
 
 type imageKitLoaderProps = {
   src: string;
@@ -15,7 +16,7 @@ type imageKitLoaderProps = {
 };
 
 export default function Card() {
-  const { data, error } = useSWR<PureCSSData2>("/api", fetcher);
+  const { data, error } = useSWR<PureCSSData>("/api", fetcher);
 
   if (!data) return <React.Fragment>Loading...</React.Fragment>;
 
