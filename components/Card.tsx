@@ -5,17 +5,27 @@ import Image from "next/image";
 import PhotoIcon from "./icons/PhotoIcon";
 import YoutubeIcon from "./icons/YoutubeIcon";
 import useSWR from "swr";
+import fetcher from "../lib/fetcher";
+import React from "react";
+import { PureCSSData } from "../pages/api";
 
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+type imageKitLoaderProps = {
+  src: string;
+  width: number;
+  quality?: number;
+};
 
 export default function Card() {
-  const { data, error } = useSWR("/api", fetcher);
+  const { data, error } = useSWR<PureCSSData>("/api", fetcher);
 
-  if (!data) return "Loading...";
+  if (!data) return <React.Fragment>Loading...</React.Fragment>;
 
-  if (error) return "An error has occurred: " + error.message;
+  if (error)
+    return (
+      <React.Fragment>An error has occurred: {error.message}</React.Fragment>
+    );
 
-  const imageKitLoader = ({ src, width, quality }) => {
+  const imageKitLoader = ({ src, width, quality }: imageKitLoaderProps) => {
     if (src[0] === "/") src = src.slice(1);
     const params = [`w-${width}`];
     if (quality) {

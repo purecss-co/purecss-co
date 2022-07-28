@@ -6,7 +6,7 @@ import YoutubeIcon from "./icons/YoutubeIcon";
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div href="#" className="navbar-title">
+      <div className="navbar-title">
         <span className="text-title">Pure</span>
         <span className="text-subtitle">CSS</span>
         <sup className="text-by">by</sup>
