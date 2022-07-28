@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "prepare": "husky install",
-    "pre-commit": "next lint --fix && git add -A ."
+    "check-types": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "next": "^12.2.3",

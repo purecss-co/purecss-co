@@ -1,4 +1,16 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run pre-commit
+echo 'Styling and testing your project before committing'
+
+# Check tsconfig standards
+npm run check-types ||
+(
+    echo '❌ Failed Type check. Please fix!'
+    false;
+)
+
+# Check and ESLint and Prettier
+npm run lint:fix
+
+echo '✅ Passes all test.'
