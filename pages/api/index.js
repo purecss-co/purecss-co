@@ -2,6 +2,16 @@ export default function handler(req, res) {
   res.status(200).json({
     purecss: [
       {
+        title: "Woody Harrelson",
+        image: "woody-harrelson_aOhs8ZI74.png",
+        youtube: "https://youtu.be/6CvG8kV4Q_U",
+        codepen: "https://codepen.io/AsyrafHussin/pen/WNzZVgw",
+        github: "https://github.com/purecss-co/woody-harrelson",
+        website: "",
+        design:
+          "https://www.deviantart.com/passthebeard/art/Natural-Born-Stencil-77725661",
+      },
+      {
         title: "Woman With Long Earrings",
         image: "woman-long-earrings_5KvFjmdQ3.png",
         youtube: "https://youtu.be/G73kBWe5UPQ",
