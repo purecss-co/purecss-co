@@ -15,11 +15,21 @@ export type PureCSSData = {
 };
 
 export default function handler(
-    req: NextApiRequest, 
-    res:NextApiResponse<PureCSSData>
-  ) {
+  req: NextApiRequest,
+  res: NextApiResponse<PureCSSData>,
+) {
   res.status(200).json({
     purecss: [
+      {
+        title: "Pure CSS Woman with Long Hair",
+        image: "woman-long-hair_dx5W3IAit.png",
+        youtube: "https://youtu.be/bdyjc6NPJ7Y",
+        codepen: "https://codepen.io/AsyrafHussin/pen/KKooZZJ",
+        github: "https://github.com/purecss-co/woman-long-hair",
+        website: "",
+        design:
+          "https://www.freepik.com/premium-vector/portrait-beautiful-young-woman_22780566.htm",
+      },
       {
         title: "Woody Harrelson",
         image: "woody-harrelson_aOhs8ZI74.png",
