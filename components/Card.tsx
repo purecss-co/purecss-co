@@ -9,6 +9,7 @@ import fetcher from "../lib/fetcher";
 import React from "react";
 import PureCSSData from "interfaces/data";
 import imageKitLoaderProps from "interfaces/loader";
+import { IMAGEKIT_URL } from "lib/constants";
 
 export default function Card() {
   const { data, error } = useSWR<PureCSSData>("/api", fetcher);
@@ -27,7 +28,7 @@ export default function Card() {
       params.push(`q-${quality}`);
     }
     const paramsString = params.join(",");
-    var urlEndpoint = "https://ik.imagekit.io/asyrafhussin/purecss";
+    var urlEndpoint = IMAGEKIT_URL;
     if (urlEndpoint[urlEndpoint.length - 1] === "/")
       urlEndpoint = urlEndpoint.substring(0, urlEndpoint.length - 1);
     return `${urlEndpoint}/${src}?tr=${paramsString}`;
