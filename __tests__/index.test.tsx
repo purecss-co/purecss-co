@@ -21,24 +21,28 @@ describe("Navbar", () => {
     );
   });
 
-  it("renders a follow link", () => {
+  const links = [
+    {
+      id: "follow-twitter",
+      href: "https://twitter.com/asyrafhussin4",
+    },
+    {
+      id: "follow-youtube",
+      href: "https://www.youtube.com/c/AsyrafHussin",
+    },
+    {
+      id: "follow-github",
+      href: "https://github.com/purecss-co",
+    },
+    {
+      id: "follow-facebook",
+      href: "https://www.facebook.com/asyrafHussin4",
+    },
+  ];
+
+  it.each(links)("renders a $id link", ({ id, href }) => {
     render(<Navbar />);
 
-    expect(screen.getByTestId("follow-twitter")).toHaveAttribute(
-      "href",
-      "https://twitter.com/asyrafhussin4",
-    );
-    expect(screen.getByTestId("follow-youtube")).toHaveAttribute(
-      "href",
-      "https://www.youtube.com/c/AsyrafHussin",
-    );
-    expect(screen.getByTestId("follow-github")).toHaveAttribute(
-      "href",
-      "https://github.com/purecss-co",
-    );
-    expect(screen.getByTestId("follow-facebook")).toHaveAttribute(
-      "href",
-      "https://www.facebook.com/asyrafHussin4",
-    );
+    expect(screen.getByTestId(id)).toHaveAttribute("href", href);
   });
 });
