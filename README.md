@@ -57,6 +57,10 @@ Test using [Jest](https://jestjs.io) and [React Testing Library](https://testing
 npm run test
 ```
 
+### E2E Testing
+
+Coming Soon.
+
 ## Contributing
 
 If you spot any errors, typos or missing information, please submit a pull request.
