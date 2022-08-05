@@ -39,6 +39,7 @@ export default function Navbar() {
       <div className="navbar-link">
         <p className="footer-link-title">Follow: </p>
         <a
+          data-testid="follow-twitter"
           className="footer-twitter"
           href="https://twitter.com/asyrafhussin4"
           target="_blank"
@@ -47,6 +48,7 @@ export default function Navbar() {
           <TwitterIcon />
         </a>
         <a
+          data-testid="follow-youtube"
           className="navbar-youtube"
           href="https://www.youtube.com/c/AsyrafHussin"
           target="_blank"
@@ -55,6 +57,7 @@ export default function Navbar() {
           <YoutubeIcon />
         </a>
         <a
+          data-testid="follow-github"
           className="navbar-github"
           href="https://github.com/purecss-co"
           target="_blank"
@@ -63,8 +66,9 @@ export default function Navbar() {
           <GitHubIcon />
         </a>
         <a
+          data-testid="follow-facebook"
           className="footer-facebook"
-          href="https://www.facebook.com/asyrafHussin4/"
+          href="https://www.facebook.com/asyrafHussin4"
           target="_blank"
           rel="noreferrer"
         >
