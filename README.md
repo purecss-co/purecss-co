@@ -19,7 +19,7 @@ To get a local copy up and running, please follow these simple steps.
 
 Here is what you need to be able to run.
 
-- Node.js (Version: >=16)
+- [Node.js](https://nodejs.org/) (Version: >=16)
 
 ## Development
 
