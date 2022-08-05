@@ -1,3 +1,9 @@
+import {
+  FACEBOOK_URL,
+  GITHUB_URL,
+  TWITTER_URL,
+  YOUTUBE_URL,
+} from "../lib/constants";
 import FacebookIcon from "./icons/FacebookIcon";
 import GitHubIcon from "./icons/GitHubIcon";
 import TwitterIcon from "./icons/TwitterIcon";
@@ -12,7 +18,7 @@ export default function Navbar() {
         <sup className="text-by">by</sup>
         <sup>
           <a
-            href="https://twitter.com/asyrafhussin4"
+            href={TWITTER_URL}
             target="_blank"
             className="navbar-title-username"
             rel="noreferrer"
@@ -41,7 +47,7 @@ export default function Navbar() {
         <a
           data-testid="follow-twitter"
           className="footer-twitter"
-          href="https://twitter.com/asyrafhussin4"
+          href={TWITTER_URL}
           target="_blank"
           rel="noreferrer"
         >
@@ -50,7 +56,7 @@ export default function Navbar() {
         <a
           data-testid="follow-youtube"
           className="navbar-youtube"
-          href="https://www.youtube.com/c/AsyrafHussin"
+          href={YOUTUBE_URL}
           target="_blank"
           rel="noreferrer"
         >
@@ -59,7 +65,7 @@ export default function Navbar() {
         <a
           data-testid="follow-github"
           className="navbar-github"
-          href="https://github.com/purecss-co"
+          href={GITHUB_URL}
           target="_blank"
           rel="noreferrer"
         >
@@ -68,7 +74,7 @@ export default function Navbar() {
         <a
           data-testid="follow-facebook"
           className="footer-facebook"
-          href="https://www.facebook.com/asyrafHussin4"
+          href={FACEBOOK_URL}
           target="_blank"
           rel="noreferrer"
         >
