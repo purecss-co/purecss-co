@@ -10,7 +10,18 @@ npm run check-types ||
     false;
 )
 
+echo '✅ Passes tsconfig tests.'
+
 # Check and ESLint and Prettier
 npm run lint:fix
 
-echo '✅ Passes all test.'
+echo '✅ Passes ESLint and Prettier tests.'
+
+# Check unit test 
+npm run test:ci ||
+(
+    echo '❌ Failed Unit Tests. Please fix!'
+    false;
+)
+
+echo '✅ Passes unit tests.'
