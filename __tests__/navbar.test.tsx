@@ -1,5 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import Navbar from "@/components/Navbar";
+import {
+  FACEBOOK_URL,
+  GITHUB_URL,
+  TWITTER_URL,
+  YOUTUBE_URL,
+} from "../lib/constants";
 
 describe("Navbar", () => {
   it("renders a title", () => {
@@ -15,29 +21,14 @@ describe("Navbar", () => {
 
     const twitterUsername = screen.getByText("asyrafhussin4");
     expect(twitterUsername).toBeInTheDocument();
-    expect(twitterUsername).toHaveAttribute(
-      "href",
-      "https://twitter.com/asyrafhussin4",
-    );
+    expect(twitterUsername).toHaveAttribute("href", TWITTER_URL);
   });
 
   const links = [
-    {
-      id: "follow-twitter",
-      href: "https://twitter.com/asyrafhussin4",
-    },
-    {
-      id: "follow-youtube",
-      href: "https://www.youtube.com/c/AsyrafHussin",
-    },
-    {
-      id: "follow-github",
-      href: "https://github.com/purecss-co",
-    },
-    {
-      id: "follow-facebook",
-      href: "https://www.facebook.com/asyrafHussin4",
-    },
+    { id: "follow-twitter", href: TWITTER_URL },
+    { id: "follow-youtube", href: YOUTUBE_URL },
+    { id: "follow-github", href: GITHUB_URL },
+    { id: "follow-facebook", href: FACEBOOK_URL },
   ];
 
   it.each(links)("renders a $id link", ({ id, href }) => {
