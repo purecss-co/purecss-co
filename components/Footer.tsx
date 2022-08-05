@@ -1,3 +1,4 @@
+import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "../lib/constants";
 import FacebookIcon from "./icons/FacebookIcon";
 import TwitterIcon from "./icons/TwitterIcon";
 
@@ -13,7 +14,7 @@ export default function Footer() {
         <a
           data-testid="share-twitter"
           className="footer-twitter"
-          href="https://twitter.com/share?url=https://purecss.co&text=Collection%20of%20PureCSS%20images%20by%20@asyrafhussin4"
+          href={TWITTER_SHARE_URL}
           target="_blank"
           rel="noreferrer"
         >
@@ -22,7 +23,7 @@ export default function Footer() {
         <a
           data-testid="share-facebook"
           className="footer-facebook"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://purecss.co"
+          href={FACEBOOK_SHARE_URL}
           target="_blank"
           rel="noreferrer"
         >
