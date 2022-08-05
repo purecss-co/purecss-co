@@ -8,12 +8,7 @@ import useSWR from "swr";
 import fetcher from "../lib/fetcher";
 import React from "react";
 import PureCSSData from "interfaces/data";
-
-type imageKitLoaderProps = {
-  src: string;
-  width: number;
-  quality?: number;
-};
+import imageKitLoaderProps from "interfaces/loader";
 
 export default function Card() {
   const { data, error } = useSWR<PureCSSData>("/api", fetcher);
