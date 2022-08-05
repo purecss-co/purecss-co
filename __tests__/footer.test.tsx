@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Footer from "@/components/Footer";
+import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "../lib/constants";
 
 describe("Footer", () => {
   it("renders a current year", () => {
@@ -19,14 +20,8 @@ describe("Footer", () => {
   });
 
   const links = [
-    {
-      id: "share-twitter",
-      href: "https://twitter.com/share?url=https://purecss.co&text=Collection%20of%20PureCSS%20images%20by%20@asyrafhussin4",
-    },
-    {
-      id: "share-facebook",
-      href: "https://www.facebook.com/sharer/sharer.php?u=https://purecss.co",
-    },
+    { id: "share-twitter", href: TWITTER_SHARE_URL },
+    { id: "share-facebook", href: FACEBOOK_SHARE_URL },
   ];
 
   it.each(links)("renders a $id link", ({ id, href }) => {
