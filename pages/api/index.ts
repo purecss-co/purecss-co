@@ -1,18 +1,5 @@
+import PureCSSData from "interfaces/data";
 import { NextApiRequest, NextApiResponse } from "next";
-
-type PureCSSProps = {
-  title: string;
-  image: string;
-  youtube?: string;
-  codepen: string;
-  github: string;
-  website: string;
-  design: string;
-};
-
-export type PureCSSData = {
-  purecss: Array<PureCSSProps>;
-};
 
 export default function handler(
   req: NextApiRequest,

@@ -7,7 +7,7 @@ import YoutubeIcon from "./icons/YoutubeIcon";
 import useSWR from "swr";
 import fetcher from "../lib/fetcher";
 import React from "react";
-import { PureCSSData } from "../pages/api";
+import PureCSSData from "interfaces/data";
 
 type imageKitLoaderProps = {
   src: string;
