@@ -25,7 +25,7 @@ Here is what you need to be able to run.
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (or fork https://github.com/AsyrafHussin/purecss-co.git/fork)
+1. Clone the repo into a public GitHub repository (or fork https://github.com/AsyrafHussin/purecss-co/fork)
 
    ```sh
    git clone https://github.com/AsyrafHussin/purecss-co.git
