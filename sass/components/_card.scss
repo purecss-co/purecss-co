@@ -2,7 +2,6 @@
   overflow: hidden;
   border-radius: 4px;
   padding: 0;
-  width: 360px;
 
   @include breakpoint(mobile) {
     width: 100%;
