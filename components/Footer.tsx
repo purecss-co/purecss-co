@@ -1,6 +1,5 @@
 import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "../lib/constants";
-import FacebookIcon from "./icons/FacebookIcon";
-import TwitterIcon from "./icons/TwitterIcon";
+import { FacebookIcon, TwitterIcon } from "./icons";
 
 export default function Footer() {
   return (

@@ -4,10 +4,7 @@ import {
   TWITTER_URL,
   YOUTUBE_URL,
 } from "../lib/constants";
-import FacebookIcon from "./icons/FacebookIcon";
-import GitHubIcon from "./icons/GitHubIcon";
-import TwitterIcon from "./icons/TwitterIcon";
-import YoutubeIcon from "./icons/YoutubeIcon";
+import { TwitterIcon, YoutubeIcon, GitHubIcon, FacebookIcon } from "./icons";
 
 export default function Navbar() {
   return (

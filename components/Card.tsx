@@ -1,9 +1,11 @@
-import BrowserIcon from "./icons/BrowserIcon";
-import CodePenIcon from "./icons/CodePenIcon";
-import GitHubIcon from "./icons/GitHubIcon";
+import {
+  YoutubeIcon,
+  CodePenIcon,
+  GitHubIcon,
+  PhotoIcon,
+  BrowserIcon,
+} from "./icons";
 import Image from "next/image";
-import PhotoIcon from "./icons/PhotoIcon";
-import YoutubeIcon from "./icons/YoutubeIcon";
 import useSWR from "swr";
 import fetcher from "../lib/fetcher";
 import React from "react";
