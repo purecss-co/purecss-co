@@ -59,7 +59,7 @@ npm run test
 
 ### E2E Testing
 
-Coming Soon.
+Coming Soon
 
 ## Contributing
 
