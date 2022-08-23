@@ -8,7 +8,7 @@ export default function handler(
   res.status(200).json({
     purecss: [
       {
-        title: "Pure CSS Woman with Long Hair",
+        title: "Woman with Long Hair",
         image: "woman-long-hair_dx5W3IAit.png",
         youtube: "https://youtu.be/bdyjc6NPJ7Y",
         codepen: "https://codepen.io/AsyrafHussin/pen/KKooZZJ",
