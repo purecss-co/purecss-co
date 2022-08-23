@@ -8,6 +8,16 @@ export default function handler(
   res.status(200).json({
     purecss: [
       {
+        title: "Mona Lisa",
+        image: "mona-lisa_9ZyiJ40x4.png",
+        youtube: "https://youtu.be/VoYGIiVhsWQ",
+        codepen: "https://codepen.io/AsyrafHussin/pen/PoRLgwm",
+        github: "https://github.com/purecss-co/mona-lisa",
+        website: "",
+        design:
+          "https://www.dreamstime.com/stock-photos-mona-lisa-smile-eps-image4008403",
+      },
+      {
         title: "Woman with Long Hair",
         image: "woman-long-hair_dx5W3IAit.png",
         youtube: "https://youtu.be/bdyjc6NPJ7Y",
