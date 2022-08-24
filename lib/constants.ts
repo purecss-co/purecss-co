@@ -1,3 +1,6 @@
+// URL
+export const APP_URL = process.env.APP_URL;
+
 // imagekit
 export const IMAGEKIT_URL = "https://ik.imagekit.io/asyrafhussin/purecss";
 

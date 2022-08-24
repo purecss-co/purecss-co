@@ -6,22 +6,11 @@ import {
   BrowserIcon,
 } from "./icons";
 import Image from "next/image";
-import useSWR from "swr";
-import fetcher from "../lib/fetcher";
-import React from "react";
-import PureCSSData from "../interfaces/data";
 import { imageKitLoader } from "../lib/imagekit";
+import { NextPage } from "next";
+import { CardProps } from "interfaces/card";
 
-export default function Card() {
-  const { data, error } = useSWR<PureCSSData>("/api", fetcher);
-
-  if (!data) return <React.Fragment>Loading...</React.Fragment>;
-
-  if (error)
-    return (
-      <React.Fragment>An error has occurred: {error.message}</React.Fragment>
-    );
-
+const Card: NextPage<CardProps> = ({ data }) => {
   return (
     <div className="row-grid">
       {data.purecss.map((item, key) => (
@@ -101,4 +90,6 @@ export default function Card() {
       ))}
     </div>
   );
-}
+};
+
+export default Card;
