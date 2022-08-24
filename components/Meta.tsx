@@ -1,3 +1,4 @@
+import { NextPage } from "next";
 
 const defaults = {
   title: `PureCSS by Asyraf Hussin`,
@@ -6,7 +7,7 @@ const defaults = {
   url: `https://purecss.co`,
 };
 
-export default function Meta() {
+const Meta: NextPage = () => {
   return (
     <>
       <title>{defaults.title}</title>
@@ -33,4 +34,6 @@ export default function Meta() {
       <meta name="twitter:image:alt" content="PureCSS Banner" />
     </>
   );
-}
+};
+
+export default Meta;
