@@ -18,6 +18,7 @@ const Home: NextPage<HomeProps> = ({ data }) => {
 export const getStaticProps: GetStaticProps = async () => {
   const res = await fetch(APP_URL + "api");
   const data = await res.json();
+  //test
 
   return {
     props: {
