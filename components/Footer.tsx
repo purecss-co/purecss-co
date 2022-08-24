@@ -1,7 +1,8 @@
+import { NextPage } from "next";
 import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "../lib/constants";
 import { FacebookIcon, TwitterIcon } from "./icons";
 
-export default function Footer() {
+const Footer: NextPage = () => {
   return (
     <div className="footer">
       <p data-testid="footer-year">
@@ -31,4 +32,6 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;
