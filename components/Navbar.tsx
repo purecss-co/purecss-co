@@ -1,3 +1,4 @@
+import { NextPage } from "next";
 import {
   FACEBOOK_URL,
   GITHUB_URL,
@@ -6,7 +7,7 @@ import {
 } from "../lib/constants";
 import { TwitterIcon, YoutubeIcon, GitHubIcon, FacebookIcon } from "./icons";
 
-export default function Navbar() {
+const Navbar: NextPage = () => {
   return (
     <nav className="navbar">
       <div className="navbar-title">
@@ -80,4 +81,6 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;
