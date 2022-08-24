@@ -1,11 +1,11 @@
 import { HomeProps } from "interfaces/home";
 import { APP_URL } from "lib/constants";
-import { GetStaticProps } from "next";
+import { GetStaticProps, NextPage } from "next";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-export default function Home({ data }: HomeProps) {
+const Home: NextPage<HomeProps> = ({ data }) => {
   return (
     <>
       <Navbar />
@@ -13,7 +13,7 @@ export default function Home({ data }: HomeProps) {
       <Footer />
     </>
   );
-}
+};
 
 export const getStaticProps: GetStaticProps = async () => {
   const res = await fetch(APP_URL + "api");
@@ -25,3 +25,5 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   };
 };
+
+export default Home;
