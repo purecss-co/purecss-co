@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
+      Test
     </>
   );
 }
