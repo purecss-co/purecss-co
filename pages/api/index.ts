@@ -261,6 +261,7 @@ export default function handler(
       {
         title: "Laravel Logo",
         image: "laravel_mCWkyXNcP.png",
+        youtube: "https://youtu.be/P51L48G9OeM",
         codepen: "https://codepen.io/AsyrafHussin/pen/MWeNjJg",
         github: "https://github.com/purecss-co/laravel-logo",
         website: "https://laravel.com/",
