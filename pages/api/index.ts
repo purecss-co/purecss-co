@@ -245,6 +245,7 @@ export default function handler(
       {
         title: "Ruby on Rails Logo",
         image: "rails_0MpK0NpAK.png",
+        youtube: "https://youtu.be/D_L5wIviEjo",
         codepen: "https://codepen.io/AsyrafHussin/pen/jOMEqMR",
         github: "https://github.com/purecss-co/rails-logo",
         website: "https://rubyonrails.org/",
