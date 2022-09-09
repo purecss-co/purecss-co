@@ -14,7 +14,7 @@
     "check-types": "tsc --pretty --noEmit"
   },
   "dependencies": {
-    "next": "^12.2.5",
+    "next": "^12.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -33,7 +33,7 @@
     "husky": "^8.0.0",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^28.1.3",
-    "sass": "^1.54.8",
+    "sass": "^1.54.9",
     "typescript": "^4.7.4"
   }
 }
