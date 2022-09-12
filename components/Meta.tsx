@@ -22,7 +22,7 @@ const Meta: NextPage = () => {
       <meta property="og:title" content={defaults.title} />
       <meta property="og:description" content={defaults.description} />
       <meta property="og:image" content={defaults.image} />
-      <meta property="og:url" content={defaults.title} />
+      <meta property="og:url" content={defaults.url} />
       <meta property="og:type" content="website" />
 
       {/*<!-- Twitter Meta Tags -->*/}
