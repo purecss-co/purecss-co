@@ -289,6 +289,7 @@ export default function handler(
       {
         title: "PS5 Logo",
         image: "ps5_W6zJRlidM.png",
+        youtube: "https://youtu.be/kAqmdxBxPLE",
         codepen: "https://codepen.io/AsyrafHussin/pen/ZEONdwE",
         github: "https://github.com/purecss-co/ps5-logo",
         website: "",
