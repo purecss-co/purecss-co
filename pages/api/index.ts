@@ -9,7 +9,7 @@ export default function handler(
     purecss: [
       {
         title: "Astro Logo",
-        image: "astro-logo_nUNbe8byr.png",
+        image: "astro-logo_kKQ3VmOKn.png",
         youtube: "https://youtu.be/IBJI6wzwOmA",
         codepen: "https://codepen.io/AsyrafHussin/pen/QWrOEOy",
         github: "https://github.com/purecss-co/astro-logo",
