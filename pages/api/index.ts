@@ -8,6 +8,15 @@ export default function handler(
   res.status(200).json({
     purecss: [
       {
+        title: "Astro Logo",
+        image: "astro-logo_nUNbe8byr.png",
+        youtube: "https://youtu.be/IBJI6wzwOmA",
+        codepen: "https://codepen.io/AsyrafHussin/pen/QWrOEOy",
+        github: "https://github.com/purecss-co/astro-logo",
+        website: "https://astro.build",
+        design: "",
+      },
+      {
         title: "Mona Lisa",
         image: "mona-lisa_9ZyiJ40x4.png",
         youtube: "https://youtu.be/VoYGIiVhsWQ",
