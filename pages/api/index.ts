@@ -382,7 +382,7 @@ export default function handler(
         design: "https://dribbble.com/shots/11321693-Bear",
       },
       {
-        title: "Hijab Girl Portrait",
+        title: "Woman Wearing Hijab",
         image: "hijab-girl_ku9xtq28m.png",
         youtube: "https://youtu.be/1w50XwL6W7E",
         codepen: "https://codepen.io/AsyrafHussin/pen/bGVYOjY",
