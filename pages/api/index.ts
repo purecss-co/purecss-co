@@ -8,6 +8,15 @@ export default function handler(
   res.status(200).json({
     purecss: [
       {
+        title: "Vercel Logo",
+        image: "vercel-logo_pRxdMheEW.png",
+        youtube: "https://youtu.be/zl1IYMn_0-o",
+        codepen: "https://codepen.io/AsyrafHussin/pen/oNdEQxB",
+        github: "https://github.com/purecss-co/vercel-logo",
+        website: "https://vercel.com",
+        design: "",
+      },
+      {
         title: "Astro Logo",
         image: "astro-logo_kKQ3VmOKn.png",
         youtube: "https://youtu.be/IBJI6wzwOmA",
