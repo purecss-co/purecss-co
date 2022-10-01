@@ -8,6 +8,15 @@ export default function handler(
   res.status(200).json({
     purecss: [
       {
+        title: "Figma Logo",
+        image: "figma-logo_f2THq0wt7.png",
+        youtube: "https://youtu.be/D6luc1fI840",
+        codepen: "https://codepen.io/AsyrafHussin/pen/KKRRwRV",
+        github: "https://github.com/purecss-co/figma-logo",
+        website: "https://www.figma.com",
+        design: "",
+      },
+      {
         title: "Vercel Logo",
         image: "vercel-logo_pRxdMheEW.png",
         youtube: "https://youtu.be/zl1IYMn_0-o",
@@ -325,6 +334,7 @@ export default function handler(
       {
         title: "JomLaunch Logo",
         image: "jomlaunch_WlH8jlitK.png",
+        youtube: "https://youtu.be/SUHdAJNaSoM",
         codepen: "https://codepen.io/AsyrafHussin/pen/rNLbvZp",
         github: "https://github.com/purecss-co/jomlaunch-logo",
         website: "https://launch.jomweb.my/",
