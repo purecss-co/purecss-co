@@ -8,6 +8,16 @@ export default function handler(
   res.status(200).json({
     purecss: [
       {
+        title: "Woman With Sunglasses",
+        image: "woman-sunglasses_Rpj7Ck7PY.png",
+        youtube: "https://youtu.be/T6fR8aDedoo",
+        codepen: "https://codepen.io/AsyrafHussin/pen/mdLvEpj",
+        github: "https://github.com/purecss-co/woman-sunglasses",
+        website: "",
+        design:
+          "https://www.vectorstock.com/royalty-free-vector/fashion-portrait-of-a-model-girl-with-sunglasses-vector-22319659",
+      },
+      {
         title: "Figma Logo",
         image: "figma-logo_f2THq0wt7.png",
         youtube: "https://youtu.be/D6luc1fI840",
