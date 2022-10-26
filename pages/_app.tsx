@@ -1,4 +1,4 @@
-import "../sass/app.scss";
+import "../styles/app.scss";
 
 import * as gtag from "../lib/gtag";
 
