@@ -1,12 +1,11 @@
 import { NextPage } from "next";
 import {
-  FACEBOOK_URL,
   GITHUB_URL,
   LINKEDIN_URL,
   TWITTER_URL,
   YOUTUBE_URL,
 } from "../lib/constants";
-import { TwitterIcon, YoutubeIcon, GitHubIcon, FacebookIcon } from "./icons";
+import { TwitterIcon, YoutubeIcon, GitHubIcon } from "./icons";
 import LinkedinIcon from "./icons/LinkedinIcon";
 import TwitterWhiteIcon from "./icons/TwitterWhiteIcon";
 
@@ -66,15 +65,6 @@ const Navbar: NextPage = () => {
           rel="noreferrer"
         >
           <LinkedinIcon />
-        </a>
-        <a
-          data-testid="follow-facebook"
-          className="footer-facebook"
-          href={FACEBOOK_URL}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FacebookIcon />
         </a>
       </div>
     </nav>

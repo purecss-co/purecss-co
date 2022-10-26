@@ -1,11 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Navbar from "@/components/Navbar";
-import {
-  FACEBOOK_URL,
-  GITHUB_URL,
-  TWITTER_URL,
-  YOUTUBE_URL,
-} from "../lib/constants";
+import { GITHUB_URL, TWITTER_URL, YOUTUBE_URL } from "../lib/constants";
 
 describe("Navbar", () => {
   it("renders a title", () => {
@@ -28,7 +23,6 @@ describe("Navbar", () => {
     { id: "follow-twitter", href: TWITTER_URL },
     { id: "follow-youtube", href: YOUTUBE_URL },
     { id: "follow-github", href: GITHUB_URL },
-    { id: "follow-facebook", href: FACEBOOK_URL },
   ];
 
   it.each(links)("renders a $id link", ({ id, href }) => {
