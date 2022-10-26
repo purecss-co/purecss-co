@@ -1,9 +1,9 @@
+import Footer from "@/components/Footer";
 import { HomeProps } from "interfaces/home";
 import { APP_URL } from "lib/constants";
 import { GetStaticProps, NextPage } from "next";
-import Card from "../components/Card";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Card from "@/components/Card";
+import Navbar from "@/components/Navbar";
 
 const Home: NextPage<HomeProps> = ({ data }) => {
   return (
