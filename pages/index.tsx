@@ -1,9 +1,9 @@
 import Footer from "@/components/Footer";
 import { HomeProps } from "interfaces/home";
-import { APP_URL } from "lib/constants";
 import { GetStaticProps, NextPage } from "next";
 import Card from "@/components/Card";
 import Navbar from "@/components/Navbar";
+import { fetchData } from "lib/getData";
 
 const Home: NextPage<HomeProps> = ({ data }) => {
   return (
@@ -16,8 +16,7 @@ const Home: NextPage<HomeProps> = ({ data }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch(APP_URL + "api");
-  const data = await res.json();
+  const data = await fetchData();
 
   return {
     props: {
