@@ -8,6 +8,8 @@ export const IMAGEKIT_URL = "https://ik.imagekit.io/asyrafhussin/purecss";
 export const TWITTER_URL = "https://twitter.com/asyrafhussin4";
 export const YOUTUBE_URL = "https://www.youtube.com/c/AsyrafHussin";
 export const GITHUB_URL = "https://github.com/purecss-co";
+export const LINKEDIN_URL =
+  "https://www.linkedin.com/in/asyraf-hussin-834011a4";
 export const FACEBOOK_URL = "https://www.facebook.com/asyrafHussin4";
 
 // share link
