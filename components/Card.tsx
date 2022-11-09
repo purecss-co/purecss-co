@@ -5,7 +5,7 @@ import {
   PhotoIcon,
   BrowserIcon,
 } from "./icons";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { imageKitLoader } from "../lib/imagekit";
 import { NextPage } from "next";
 import { CardProps } from "interfaces/card";
@@ -21,10 +21,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
               src={item.image}
               className="card-image"
               alt="image"
-              width="100"
-              height="63"
-              layout="responsive"
-              objectFit="contain"
+              fill
             />
           </div>
           <div className="card-footer">
