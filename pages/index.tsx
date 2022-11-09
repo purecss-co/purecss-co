@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import { HomeProps } from "interfaces/home";
+import { HomeProps } from "types/home";
 import { GetStaticProps, NextPage } from "next";
 import Card from "@/components/Card";
 import Navbar from "@/components/Navbar";

@@ -1,4 +1,4 @@
-import PureCSSData from "interfaces/data";
+import PureCSSData from "types/data";
 import { NextApiRequest, NextApiResponse } from "next";
 import path from "path";
 import { promises as fs } from "fs";

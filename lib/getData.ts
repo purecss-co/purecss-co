@@ -1,4 +1,4 @@
-import PureCSSData from "interfaces/data";
+import PureCSSData from "types/data";
 import { APP_URL } from "./constants";
 
 export async function fetchData(): Promise<PureCSSData> {

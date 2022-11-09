@@ -8,7 +8,7 @@ import {
 import Image from "next/image";
 import { imageKitLoader } from "../lib/imagekit";
 import { NextPage } from "next";
-import { CardProps } from "interfaces/card";
+import { CardProps } from "types/card";
 
 const Card: NextPage<CardProps> = ({ data }) => {
   return (

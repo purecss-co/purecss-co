@@ -1,4 +1,4 @@
-import { GTagEvent } from "../interfaces/gtag";
+import { GTagEvent } from "../types/gtag";
 
 export const GA_TRACKING_ID = "G-G1CQF2QS67";
 
