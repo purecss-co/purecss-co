@@ -5,7 +5,7 @@ Source Code of purecss.co
 ![Vercel](https://vercelbadge.vercel.app/api/asyrafhussin/purecss-co)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-### Built With
+## Built With
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
@@ -19,13 +19,13 @@ To get a local copy up and running, please follow these simple steps.
 
 Here is what you need to be able to run.
 
-- [Node.js](https://nodejs.org/) (Version: >=16)
+- [Node.js](https://nodejs.org/) (Version: >=18)
 
 ## Development
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (or fork https://github.com/AsyrafHussin/purecss-co/fork)
+1. Clone the repo into a public GitHub repository (or fork <https://github.com/AsyrafHussin/purecss-co/fork>)
 
    ```sh
    git clone https://github.com/AsyrafHussin/purecss-co.git
