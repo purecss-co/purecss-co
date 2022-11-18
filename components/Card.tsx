@@ -34,6 +34,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   href={item.youtube}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Go to YouTube"
                 >
                   <YoutubeIcon />
                 </a>
@@ -44,6 +45,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   href={item.codepen}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Go to CodePen"
                 >
                   <CodePenIcon />
                 </a>
@@ -55,6 +57,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   href={item.github}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Go to GitHub"
                 >
                   <GitHubIcon />
                 </a>
@@ -66,6 +69,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   href={item.design}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Go to Design Source"
                 >
                   <PhotoIcon />
                 </a>
@@ -77,6 +81,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   href={item.website}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Go to Website"
                 >
                   <BrowserIcon />
                 </a>

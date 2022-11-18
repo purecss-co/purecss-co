@@ -17,6 +17,7 @@ const Footer: NextPage = () => {
           href={TWITTER_SHARE_URL}
           target="_blank"
           rel="noreferrer"
+          aria-label="Share link to Twitter"
         >
           <TwitterIcon />
         </a>
@@ -26,6 +27,7 @@ const Footer: NextPage = () => {
           href={FACEBOOK_SHARE_URL}
           target="_blank"
           rel="noreferrer"
+          aria-label="Share link to Facebook"
         >
           <FacebookIcon />
         </a>

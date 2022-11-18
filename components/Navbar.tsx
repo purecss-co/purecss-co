@@ -22,6 +22,7 @@ const Navbar: NextPage = () => {
             target="_blank"
             className="navbar-title-username"
             rel="noreferrer"
+            aria-label="Go to Twitter"
           >
             <TwitterWhiteIcon />
             asyrafhussin4
@@ -36,6 +37,7 @@ const Navbar: NextPage = () => {
           href={TWITTER_URL}
           target="_blank"
           rel="noreferrer"
+          aria-label="Go to Twitter"
         >
           <TwitterIcon />
         </a>
@@ -45,6 +47,7 @@ const Navbar: NextPage = () => {
           href={YOUTUBE_URL}
           target="_blank"
           rel="noreferrer"
+          aria-label="Go to Youtube"
         >
           <YoutubeIcon />
         </a>
@@ -54,6 +57,7 @@ const Navbar: NextPage = () => {
           href={GITHUB_URL}
           target="_blank"
           rel="noreferrer"
+          aria-label="Go to Github"
         >
           <GitHubIcon />
         </a>
@@ -63,6 +67,7 @@ const Navbar: NextPage = () => {
           href={LINKEDIN_URL}
           target="_blank"
           rel="noreferrer"
+          aria-label="Go to LinkedIn"
         >
           <LinkedinIcon />
         </a>
