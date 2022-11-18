@@ -46,7 +46,7 @@
 
     &-username {
       color: #fff;
-      background: $logo-color;
+      background: $twitter-color;
       font-weight: 600;
       font-size: 12px;
       border-radius: 2px;
@@ -56,9 +56,19 @@
       justify-content: center;
       gap: 3px;
       padding: 4px 6px;
+      border: 1px solid $twitter-color;
 
       .icon-twitter {
         fill: #fff;
+      }
+
+      &:hover {
+        background: #fff;
+        color: $twitter-color;
+
+        .icon-twitter {
+          fill: $twitter-color;
+        }
       }
 
       @include breakpoint(mobile) {
