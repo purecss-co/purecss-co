@@ -1,10 +1,11 @@
-import { NextPage } from "next";
 import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "../lib/constants";
 import { FacebookIcon, TwitterIcon } from "./icons";
 
+import { NextPage } from "next";
+
 const Footer: NextPage = () => {
   return (
-    <div className="footer">
+    <footer className="footer" role="footer">
       <p data-testid="footer-year">
         &copy;
         {new Date().getFullYear()} PureCSS. All rights reserved.
@@ -32,7 +33,7 @@ const Footer: NextPage = () => {
           <FacebookIcon />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 
