@@ -1,4 +1,4 @@
-type PureCSSProps = {
+export type PureCSSProps = {
   title: string;
   image: string;
   youtube?: string;

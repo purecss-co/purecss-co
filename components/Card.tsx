@@ -1,26 +1,27 @@
 import {
-  YoutubeIcon,
+  BrowserIcon,
   CodePenIcon,
   GitHubIcon,
   PhotoIcon,
-  BrowserIcon,
+  YoutubeIcon,
 } from "./icons";
-import Image from "next/image";
-import { imageKitLoader } from "../lib/imagekit";
-import { NextPage } from "next";
+
 import { CardProps } from "types/card";
+import Image from "next/image";
+import { NextPage } from "next";
+import { imageKitLoader } from "../lib/imagekit";
 
 const Card: NextPage<CardProps> = ({ data }) => {
   return (
     <div className="row-grid">
       {data.purecss.map((item, key) => (
-        <div className="card-container" key={key}>
+        <div className="card-container" key={key} data-testid="card-item">
           <div className="card">
             <Image
               loader={imageKitLoader}
               src={item.image}
               className="card-image"
-              alt="image"
+              alt={`${item.title} image`}
               fill
             />
           </div>
@@ -33,7 +34,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   className="card-footer-link-youtube"
                   href={item.youtube}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Go to YouTube"
                 >
                   <YoutubeIcon />
@@ -44,7 +45,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   className="card-footer-link-codepen"
                   href={item.codepen}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Go to CodePen"
                 >
                   <CodePenIcon />
@@ -56,7 +57,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   className="card-footer-link-codepen"
                   href={item.github}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Go to GitHub"
                 >
                   <GitHubIcon />
@@ -68,7 +69,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   className="card-footer-link-design"
                   href={item.design}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Go to Design Source"
                 >
                   <PhotoIcon />
@@ -80,7 +81,7 @@ const Card: NextPage<CardProps> = ({ data }) => {
                   className="card-footer-link-website"
                   href={item.website}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Go to Website"
                 >
                   <BrowserIcon />
