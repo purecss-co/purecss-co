@@ -54,4 +54,14 @@ describe("Navbar", () => {
 
     expect(screen.getByTestId(id)).toHaveAttribute("href", href);
   });
+
+  it("opens links in new tab", () => {
+    render(<Navbar />);
+
+    const links = screen.getAllByRole("link");
+    links.forEach((link) => {
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link).toHaveAttribute("rel", "noreferrer");
+    });
+  });
 });
