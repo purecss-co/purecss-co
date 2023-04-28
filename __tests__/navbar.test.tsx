@@ -64,4 +64,13 @@ describe("Navbar", () => {
       expect(link).toHaveAttribute("rel", "noreferrer");
     });
   });
+
+  it("renders links with proper accessibility attributes", () => {
+    render(<Navbar />);
+
+    const links = screen.getAllByRole("link");
+    links.forEach((link) => {
+      expect(link).toHaveAttribute("aria-label");
+    });
+  });
 });
