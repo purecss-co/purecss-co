@@ -3,6 +3,7 @@ export default function LinkedinIcon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="ionicon"
+      data-testid="linkedin-icon"
       viewBox="0 0 512 512"
       fill="#0072b1"
     >

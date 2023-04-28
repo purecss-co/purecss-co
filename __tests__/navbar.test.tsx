@@ -1,11 +1,12 @@
-import { render, screen } from "@testing-library/react";
-import Navbar from "@/components/Navbar";
 import {
   GITHUB_URL,
   LINKEDIN_URL,
   TWITTER_URL,
   YOUTUBE_URL,
 } from "../lib/constants";
+import { render, screen } from "@testing-library/react";
+
+import Navbar from "@/components/Navbar";
 
 describe("Navbar", () => {
   it("renders a title", () => {
@@ -35,5 +36,22 @@ describe("Navbar", () => {
     render(<Navbar />);
 
     expect(screen.getByTestId(id)).toHaveAttribute("href", href);
+  });
+
+  it("renders all icons", () => {
+    render(<Navbar />);
+
+    expect(screen.getByTestId("follow-twitter")).toContainElement(
+      screen.getByTestId("twitter-icon"),
+    );
+    expect(screen.getByTestId("follow-youtube")).toContainElement(
+      screen.getByTestId("youtube-icon"),
+    );
+    expect(screen.getByTestId("follow-github")).toContainElement(
+      screen.getByTestId("github-icon"),
+    );
+    expect(screen.getByTestId("follow-linkedin")).toContainElement(
+      screen.getByTestId("linkedin-icon"),
+    );
   });
 });
