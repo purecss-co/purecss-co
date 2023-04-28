@@ -73,4 +73,11 @@ describe("Navbar", () => {
       expect(link).toHaveAttribute("aria-label");
     });
   });
+
+  it("renders with the correct class name", () => {
+    render(<Navbar />);
+
+    const navbar = screen.getByRole("navigation");
+    expect(navbar).toHaveClass("navbar");
+  });
 });
