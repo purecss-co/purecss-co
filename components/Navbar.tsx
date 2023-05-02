@@ -1,13 +1,18 @@
-import { NextPage } from "next";
 import {
   GITHUB_URL,
   LINKEDIN_URL,
   TWITTER_URL,
   YOUTUBE_URL,
-} from "../lib/constants";
-import { TwitterIcon, YoutubeIcon, GitHubIcon } from "./icons";
-import LinkedinIcon from "./icons/LinkedinIcon";
-import TwitterWhiteIcon from "./icons/TwitterWhiteIcon";
+} from "@/lib/constants";
+import {
+  GitHubIcon,
+  LinkedinIcon,
+  TwitterIcon,
+  TwitterWhiteIcon,
+  YoutubeIcon,
+} from "@/components/icons";
+
+import { NextPage } from "next";
 
 const Navbar: NextPage = () => {
   return (

@@ -1,4 +1,4 @@
-import PureCSSData from "./data";
+import PureCSSData from "@/types/data";
 
 export type HomeProps = {
   data: PureCSSData;

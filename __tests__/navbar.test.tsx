@@ -3,7 +3,7 @@ import {
   LINKEDIN_URL,
   TWITTER_URL,
   YOUTUBE_URL,
-} from "../lib/constants";
+} from "@/lib/constants";
 import { render, screen } from "@testing-library/react";
 
 import Navbar from "@/components/Navbar";

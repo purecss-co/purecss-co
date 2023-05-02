@@ -1,5 +1,5 @@
-import imageKitLoaderProps from "../types/imagekit";
-import { IMAGEKIT_URL } from "./constants";
+import { IMAGEKIT_URL } from "@/lib/constants";
+import imageKitLoaderProps from "@/types/imagekit";
 
 export const imageKitLoader = ({
   src,

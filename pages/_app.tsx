@@ -1,6 +1,6 @@
-import "../styles/app.scss";
+import "@/styles/app.scss";
 
-import * as gtag from "../lib/gtag";
+import * as gtag from "@/lib/gtag";
 
 import { Analytics } from "@vercel/analytics/react";
 import { AppProps } from "next/app";

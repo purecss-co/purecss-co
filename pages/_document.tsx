@@ -1,8 +1,8 @@
-import Document from "next/document";
-import { Html, Head, Main, NextScript } from "next/document";
-import Meta from "../components/Meta";
+import { Head, Html, Main, NextScript } from "next/document";
 
-import { GA_TRACKING_ID } from "../lib/gtag";
+import Document from "next/document";
+import { GA_TRACKING_ID } from "@/lib/gtag";
+import Meta from "@/components/Meta";
 
 export default class MyDocument extends Document {
   render() {

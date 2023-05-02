@@ -1,7 +1,7 @@
 import { CardProps } from "types/card";
 import Image from "next/image";
 import { NextPage } from "next";
-import { imageKitLoader } from "../lib/imagekit";
+import { imageKitLoader } from "@/lib/imagekit";
 import { links } from "@/lib/link";
 
 const Card: NextPage<CardProps> = ({ data }) => {

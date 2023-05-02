@@ -4,9 +4,9 @@ import {
   GitHubIcon,
   PhotoIcon,
   YoutubeIcon,
-} from "../components/icons";
+} from "@/components/icons";
 
-import { Link } from "types/link";
+import { Link } from "@/types/link";
 
 export const links: Link[] = [
   {

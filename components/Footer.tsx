@@ -1,5 +1,5 @@
-import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "../lib/constants";
-import { FacebookIcon, TwitterIcon } from "./icons";
+import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "@/lib/constants";
+import { FacebookIcon, TwitterIcon } from "@/components/icons";
 
 import { NextPage } from "next";
 

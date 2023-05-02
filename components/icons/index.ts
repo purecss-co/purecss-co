@@ -5,3 +5,5 @@ export { default as GitHubIcon } from "./GitHubIcon";
 export { default as PhotoIcon } from "./PhotoIcon";
 export { default as TwitterIcon } from "./TwitterIcon";
 export { default as YoutubeIcon } from "./YoutubeIcon";
+export { default as LinkedinIcon } from "./LinkedinIcon";
+export { default as TwitterWhiteIcon } from "./TwitterWhiteIcon";
