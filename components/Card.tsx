@@ -1,15 +1,8 @@
-import {
-  BrowserIcon,
-  CodePenIcon,
-  GitHubIcon,
-  PhotoIcon,
-  YoutubeIcon,
-} from "./icons";
-
 import { CardProps } from "types/card";
 import Image from "next/image";
 import { NextPage } from "next";
 import { imageKitLoader } from "../lib/imagekit";
+import { links } from "@/lib/link";
 
 const Card: NextPage<CardProps> = ({ data }) => {
   return (
@@ -29,63 +22,20 @@ const Card: NextPage<CardProps> = ({ data }) => {
             <p className="card-title">{item.title}</p>
 
             <div className="card-footer-link">
-              {item.youtube && (
-                <a
-                  className="card-footer-link-youtube"
-                  href={item.youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Go to YouTube"
-                >
-                  <YoutubeIcon />
-                </a>
-              )}
-              {item.codepen && (
-                <a
-                  className="card-footer-link-codepen"
-                  href={item.codepen}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Go to CodePen"
-                >
-                  <CodePenIcon />
-                </a>
-              )}
-
-              {item.github && (
-                <a
-                  className="card-footer-link-codepen"
-                  href={item.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Go to GitHub"
-                >
-                  <GitHubIcon />
-                </a>
-              )}
-
-              {item.design && (
-                <a
-                  className="card-footer-link-design"
-                  href={item.design}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Go to Design Source"
-                >
-                  <PhotoIcon />
-                </a>
-              )}
-
-              {item.website && (
-                <a
-                  className="card-footer-link-website"
-                  href={item.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Go to Website"
-                >
-                  <BrowserIcon />
-                </a>
+              {links.map(
+                (link) =>
+                  item[link.type] && (
+                    <a
+                      key={link.type}
+                      className={`card-footer-link-${link.type}`}
+                      href={item[link.type] as string}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={link.label}
+                    >
+                      <link.icon />
+                    </a>
+                  ),
               )}
             </div>
           </div>
