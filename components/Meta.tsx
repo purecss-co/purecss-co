@@ -1,8 +1,8 @@
 import { NextPage } from "next";
 
 const defaults = {
-  title: `PureCSS by Asyraf Hussin`,
-  description: `Experience a mesmerizing collection of images crafted using PureCSS by Asyraf Hussin. Discover the beauty of PureCSS.co now`,
+  title: `PureCSS Showcase by Asyraf Hussin`,
+  description: `Explore a captivating collection of images created with PureCSS by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.`,
   image: `https://purecss.co/banner.png`,
   url: `https://purecss.co`,
 };
