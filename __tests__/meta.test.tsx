@@ -21,7 +21,7 @@ describe("Meta", () => {
     const descriptionTag = document.querySelector("meta[name='description']");
     expect(descriptionTag).toHaveAttribute(
       "content",
-      "Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
+      "Explore a captivating collection of images created with PureCSS by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
     );
 
     const ogTitleTag = document.querySelector("meta[property='og:title']");
@@ -35,7 +35,7 @@ describe("Meta", () => {
     );
     expect(ogDescriptionTag).toHaveAttribute(
       "content",
-      "Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
+      "Explore a captivating collection of images created with PureCSS by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
     );
 
     const ogImageTag = document.querySelector("meta[property='og:image']");
@@ -66,7 +66,7 @@ describe("Meta", () => {
     );
     expect(twitterDescriptionTag).toHaveAttribute(
       "content",
-      "Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
+      "Explore a captivating collection of images created with PureCSS by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
     );
 
     const twitterImageTag = document.querySelector(
