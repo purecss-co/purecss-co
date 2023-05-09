@@ -1,6 +1,6 @@
 # PureCSS Showcase by Asyraf Hussin
 
-Explore a captivating collection of images created with PureCSS by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.
+Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.
 
 ![Vercel](https://vercelbadge.vercel.app/api/asyrafhussin/purecss-co)
 ![License](https://img.shields.io/badge/license-ISC-blue)

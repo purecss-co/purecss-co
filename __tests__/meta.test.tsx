@@ -16,23 +16,26 @@ describe("Meta", () => {
     render(<Meta />);
 
     const titleTag = document.querySelector("title");
-    expect(titleTag).toHaveTextContent("PureCSS by Asyraf Hussin");
+    expect(titleTag).toHaveTextContent("PureCSS Showcase by Asyraf Hussin");
 
     const descriptionTag = document.querySelector("meta[name='description']");
     expect(descriptionTag).toHaveAttribute(
       "content",
-      "Experience a mesmerizing collection of images crafted using PureCSS by Asyraf Hussin. Discover the beauty of PureCSS.co now",
+      "Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
     );
 
     const ogTitleTag = document.querySelector("meta[property='og:title']");
-    expect(ogTitleTag).toHaveAttribute("content", "PureCSS by Asyraf Hussin");
+    expect(ogTitleTag).toHaveAttribute(
+      "content",
+      "PureCSS Showcase by Asyraf Hussin",
+    );
 
     const ogDescriptionTag = document.querySelector(
       "meta[property='og:description']",
     );
     expect(ogDescriptionTag).toHaveAttribute(
       "content",
-      "Experience a mesmerizing collection of images crafted using PureCSS by Asyraf Hussin. Discover the beauty of PureCSS.co now",
+      "Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
     );
 
     const ogImageTag = document.querySelector("meta[property='og:image']");
@@ -55,7 +58,7 @@ describe("Meta", () => {
     );
     expect(twitterTitleTag).toHaveAttribute(
       "content",
-      "PureCSS by Asyraf Hussin",
+      "PureCSS Showcase by Asyraf Hussin",
     );
 
     const twitterDescriptionTag = document.querySelector(
@@ -63,7 +66,7 @@ describe("Meta", () => {
     );
     expect(twitterDescriptionTag).toHaveAttribute(
       "content",
-      "Experience a mesmerizing collection of images crafted using PureCSS by Asyraf Hussin. Discover the beauty of PureCSS.co now",
+      "Explore a captivating collection of images created with PureCSS Showcase by Asyraf Hussin. Discover the elegance and beauty of PureCSS.co today.",
     );
 
     const twitterImageTag = document.querySelector(
