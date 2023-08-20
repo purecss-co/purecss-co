@@ -1,3 +1,5 @@
+import "@testing-library/jest-dom";
+
 import PureCSSData, { PureCSSProps } from "types/data";
 import { render, screen } from "@testing-library/react";
 

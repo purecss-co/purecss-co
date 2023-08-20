@@ -1,3 +1,5 @@
+import "@testing-library/jest-dom";
+
 import Meta from "@/components/Meta";
 import { render } from "@testing-library/react";
 

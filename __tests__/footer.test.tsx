@@ -1,3 +1,5 @@
+import "@testing-library/jest-dom";
+
 import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "@/lib/constants";
 import { render, screen } from "@testing-library/react";
 

@@ -1,3 +1,5 @@
+import "@testing-library/jest-dom";
+
 import {
   GITHUB_URL,
   LINKEDIN_URL,
