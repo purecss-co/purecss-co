@@ -4,15 +4,10 @@ import {
   TWITTER_URL,
   YOUTUBE_URL,
 } from "@/lib/constants";
-import {
-  GitHubIcon,
-  LinkedinIcon,
-  TwitterIcon,
-  TwitterWhiteIcon,
-  YoutubeIcon,
-} from "@/components/icons";
+import { GitHubIcon, LinkedinIcon, YoutubeIcon } from "@/components/icons";
 
 import { NextPage } from "next";
+import XIcon from "./icons/XIcon";
 
 const Navbar: NextPage = () => {
   return (
@@ -29,7 +24,7 @@ const Navbar: NextPage = () => {
             rel="noreferrer"
             aria-label="Go to Twitter"
           >
-            <TwitterWhiteIcon />
+            <XIcon />
             asyrafhussin4
           </a>
         </sup>
@@ -44,7 +39,7 @@ const Navbar: NextPage = () => {
           rel="noreferrer"
           aria-label="Go to Twitter"
         >
-          <TwitterIcon />
+          <XIcon />
         </a>
         <a
           data-testid="follow-youtube"

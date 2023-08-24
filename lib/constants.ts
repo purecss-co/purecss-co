@@ -5,7 +5,7 @@ export const APP_URL = process.env.APP_URL;
 export const IMAGEKIT_URL = "https://ik.imagekit.io/asyrafhussin/purecss";
 
 // social link
-export const TWITTER_URL = "https://twitter.com/asyrafhussin4";
+export const TWITTER_URL = "https://x.com/asyrafhussin4";
 export const YOUTUBE_URL = "https://www.youtube.com/c/AsyrafHussin";
 export const GITHUB_URL = "https://github.com/purecss-co";
 export const LINKEDIN_URL =

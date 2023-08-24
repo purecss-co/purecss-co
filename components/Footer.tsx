@@ -1,7 +1,8 @@
 import { FACEBOOK_SHARE_URL, TWITTER_SHARE_URL } from "@/lib/constants";
-import { FacebookIcon, TwitterIcon } from "@/components/icons";
 
+import { FacebookIcon } from "@/components/icons";
 import { NextPage } from "next";
+import XIcon from "./icons/XIcon";
 
 const Footer: NextPage = () => {
   return (
@@ -20,7 +21,7 @@ const Footer: NextPage = () => {
           rel="noreferrer"
           aria-label="Share link to Twitter"
         >
-          <TwitterIcon />
+          <XIcon />
         </a>
         <a
           data-testid="share-facebook"
