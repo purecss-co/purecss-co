@@ -1,9 +1,9 @@
 .row-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(325px, auto));
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  padding: 15px 24px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, auto));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 15px 24px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }

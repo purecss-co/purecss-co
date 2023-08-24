@@ -23,7 +23,7 @@ describe("Navbar", () => {
     render(<Navbar />);
 
     expect(screen.getByTestId("follow-twitter")).toContainElement(
-      screen.getByTestId("twitter-icon"),
+      screen.getAllByTestId("twitter-icon")[1],
     );
     expect(screen.getByTestId("follow-youtube")).toContainElement(
       screen.getByTestId("youtube-icon"),
