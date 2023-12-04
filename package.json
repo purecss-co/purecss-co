@@ -25,7 +25,7 @@
     "@testing-library/user-event": "^14.5.1",
     "@types/gtag.js": "^0.0.18",
     "@types/jest": "^29.5.8",
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.10.3",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
